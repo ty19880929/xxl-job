@@ -286,6 +286,7 @@ public class XxlJobServiceImpl implements XxlJobService {
 		exists_jobInfo.setJobDesc(jobInfo.getJobDesc());
 		exists_jobInfo.setAuthor(jobInfo.getAuthor());
 		exists_jobInfo.setAlarmEmail(jobInfo.getAlarmEmail());
+		exists_jobInfo.setAlarmWeChatWebhook(jobInfo.getAlarmWeChatWebhook());
 		exists_jobInfo.setScheduleType(jobInfo.getScheduleType());
 		exists_jobInfo.setScheduleConf(jobInfo.getScheduleConf());
 		exists_jobInfo.setMisfireStrategy(jobInfo.getMisfireStrategy());

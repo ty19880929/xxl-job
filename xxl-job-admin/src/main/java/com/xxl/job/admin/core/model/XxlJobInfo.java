@@ -19,6 +19,7 @@ public class XxlJobInfo {
 	
 	private String author;		// 负责人
 	private String alarmEmail;	// 报警邮件
+	private String alarmWeChatWebhook;	// 报警企业微信机器人Webhook
 
 	private String scheduleType;			// 调度类型
 	private String scheduleConf;			// 调度配置，值含义取决于调度类型
@@ -95,8 +96,16 @@ public class XxlJobInfo {
 		return alarmEmail;
 	}
 
+	public String getAlarmWeChatWebhook() {
+		return alarmWeChatWebhook;
+	}
+
 	public void setAlarmEmail(String alarmEmail) {
 		this.alarmEmail = alarmEmail;
+	}
+
+	public void setAlarmWeChatWebhook(String alarmWeChatWebhook) {
+		this.alarmWeChatWebhook = alarmWeChatWebhook;
 	}
 
 	public String getScheduleType() {
